@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import useWindowWidth from '../../../lib/hooks/useWindowWidth';
-import LogoWeb from "public/assets/images/intro-logo.png"
+import LogoWeb from 'public/assets/images/intro-logo-web.png';
+import LogoMobile from 'public/assets/images/intro-logo-mobile.png';
 
 export const IntroPage = () => {
   const isWindowWidth = useWindowWidth();
