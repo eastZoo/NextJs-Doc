@@ -1,3 +1,10 @@
+import LoginBox from "../../molecules/LoginBox";
+import * as S from "./loginPage.style";
+
 export const LoginPage = () => {
-  return <div>로그인 페이지</div>;
+  return (
+    <S.LoginPage>
+      <LoginBox />
+    </S.LoginPage>
+  );
 };

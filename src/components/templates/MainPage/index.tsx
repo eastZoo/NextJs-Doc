@@ -1,11 +1,9 @@
 
 export const MainPage = () => {
   return (
-    <S.MainLayout>
-      <BannerSection />
-      <AsideSection />
-      <ContentSection />
-    </S.MainLayout>
+    <div>
+      mainpage
+    </div>
   );
 };
 

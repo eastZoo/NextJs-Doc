@@ -1,4 +1,4 @@
-import MainPage from "@/components/templates/MainPage";
+import MainPage from "../../components/templates/MainPage";
 //check
 export const Main = () => {
   return <MainPage />;
