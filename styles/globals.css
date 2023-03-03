@@ -116,3 +116,9 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.email {
+  width: 420px;
+  height: 44px;
+  font-size: 18px;
+}

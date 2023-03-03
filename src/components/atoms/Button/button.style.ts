@@ -19,5 +19,6 @@ export const Button = styled.button<ButtonProps>`
   font-weight: 900;
   border-radius: 5px;
   margin-top: 5px;
+  font-size: 18px;
   cursor: pointer;
 `;

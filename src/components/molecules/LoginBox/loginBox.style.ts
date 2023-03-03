@@ -2,43 +2,58 @@ import styled from "styled-components";
 
 export const LoginBox = styled.div`
   display: flex;
-  width: 270px;
+  width: 560px;
   max-height: 490px;
   align-items: center;
   flex-direction: column;
+
   position: relative;
 `;
 
-export const ButtonWrapper = styled.div`
+export const H1 = styled.h1`
+  font-size: 48px;
+`;
+
+export const P = styled.p`
+  font-size: 18px;
+`;
+export const SocialLoginBtn = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 30px;
 `;
 
 export const InputWrapper = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 export const DividingLine = styled.p`
   margin: 30px 0;
+  font-size: 18px;
   &::before {
     content: "";
     display: block;
-    width: 120px;
+    width: 235px;
     height: 0.5px;
     background: #ddd;
     position: absolute;
     left: 0;
-    bottom: 67px;
+    bottom: 100px;
   }
 
   &::after {
     content: "";
     display: block;
-    width: 120px;
+    width: 235px;
     height: 0.5px;
     background: #ddd;
     position: absolute;
     right: 0;
-    bottom: 67px;
+    bottom: 100px;
   }
 `;
